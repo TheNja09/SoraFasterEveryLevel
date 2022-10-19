@@ -1,0 +1,7 @@
+assets:
+#Lua Scripts
+- name: scripts/levelspeed.lua
+  method: copy
+  source:
+  - name: levelspeed.lua
+title: Faster Every Level
