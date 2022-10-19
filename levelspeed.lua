@@ -244,6 +244,4 @@ function Cheats()
    WriteFloat(Sys3+0x181F8, 16) -- Dice Sora
    WriteFloat(Sys3+0x1822C, 16) -- Card Sora
    WriteFloat(Sys3+0x18364, 20) -- Limit Form
-   WriteFloat(Sys3+0x17E84, 100) -- Donald
-   WriteFloat(Sys3+0x17EEC, 100) -- Goofy
 end
