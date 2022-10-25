@@ -5,3 +5,4 @@ assets:
   source:
   - name: levelspeed.lua
 title: Faster Every Level
+description: This mod makes Sora move faster everytime he levels up! This does not affect growth abilities.
