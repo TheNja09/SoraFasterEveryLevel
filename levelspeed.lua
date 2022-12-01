@@ -35,6 +35,8 @@ end
 
 function Cheats()
 WriteFloat(Sys3+0x17CE4, ReadByte(Save+0x24FF)/2 + 7.5) -- Base Running Speed
+WriteFloat(0x250D582, ReadByte(Save+0x24FF)/2 + 1.5) -- Base Walking Speed
+WriteFloat(0x250D6BE, ReadByte(Save+0x24FF)/2 + 17.5) -- Lion Sora Dash Speed
 WriteFloat(Sys3+0x17D18, ReadByte(Save+0x24FF)/2 + 11.5) -- Valor Form: DS = 12
 WriteFloat(Sys3+0x17D4C, ReadByte(Save+0x24FF)/2 + 11.5) -- Wisdom Form: DS = 12
 WriteFloat(Sys3+0x17D80, ReadByte(Save+0x24FF)/2 + 9.5) -- Master Form: DS = 10
