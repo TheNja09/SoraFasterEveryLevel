@@ -34,16 +34,16 @@ function Events(M,B,E) --Check for Map, Btl, and Evt
 end
 
 function Cheats()
-WriteFloat(Sys3+0x17CE4, ReadByte(Save+0x24FF)/2 + 8) -- Base Running Speed
-WriteFloat(Sys3+0x17D18, ReadByte(Save+0x24FF)/2 + 12) -- Valor Form: DS = 12
-WriteFloat(Sys3+0x17D4C, ReadByte(Save+0x24FF)/2 + 12) -- Wisdom Form: DS = 12
-WriteFloat(Sys3+0x17D80, ReadByte(Save+0x24FF)/2 + 10) -- Master Form: DS = 10
-WriteFloat(Sys3+0x17DB4, ReadByte(Save+0x24FF)/2 + 16) -- Final Form: DS = 16
-WriteFloat(Sys3+0x17E1C, ReadByte(Save+0x24FF)/2 + 18) -- Lion Sora: DS = 18
-WriteFloat(Sys3+0x17DE8, ReadByte(Save+0x24FF)/2 + 16) -- Anti Form: DS = 16
-WriteFloat(Sys3+0x17E50, ReadByte(Save+0x24FF)/2 + 7) -- Mermaid Sora: DS = 7
-WriteFloat(Sys3+0x18190, ReadByte(Save+0x24FF)/2 + 20) -- Carpet Sora: DS = 20
-WriteFloat(Sys3+0x181F8, ReadByte(Save+0x24FF)/2 + 8) -- Dice Sora: DS = 8
-WriteFloat(Sys3+0x1822C, ReadByte(Save+0x24FF)/2 + 8) -- Card Sora: DS = 8
-WriteFloat(Sys3+0x18364, ReadByte(Save+0x24FF)/2 + 8) -- Limit Form: DS = 8
+WriteFloat(Sys3+0x17CE4, ReadByte(Save+0x24FF)/2 + 7.5) -- Base Running Speed
+WriteFloat(Sys3+0x17D18, ReadByte(Save+0x24FF)/2 + 11.5) -- Valor Form: DS = 12
+WriteFloat(Sys3+0x17D4C, ReadByte(Save+0x24FF)/2 + 11.5) -- Wisdom Form: DS = 12
+WriteFloat(Sys3+0x17D80, ReadByte(Save+0x24FF)/2 + 9.5) -- Master Form: DS = 10
+WriteFloat(Sys3+0x17DB4, ReadByte(Save+0x24FF)/2 + 15.5) -- Final Form: DS = 16
+WriteFloat(Sys3+0x17E1C, ReadByte(Save+0x24FF)/2 + 17.5) -- Lion Sora: DS = 18
+WriteFloat(Sys3+0x17DE8, ReadByte(Save+0x24FF)/2 + 15.5) -- Anti Form: DS = 16
+WriteFloat(Sys3+0x17E50, ReadByte(Save+0x24FF)/2 + 6.5) -- Mermaid Sora: DS = 7
+WriteFloat(Sys3+0x18190, ReadByte(Save+0x24FF)/2 + 19.5) -- Carpet Sora: DS = 20
+WriteFloat(Sys3+0x181F8, ReadByte(Save+0x24FF)/2 + 7.5) -- Dice Sora: DS = 8
+WriteFloat(Sys3+0x1822C, ReadByte(Save+0x24FF)/2 + 7.5) -- Card Sora: DS = 8
+WriteFloat(Sys3+0x18364, ReadByte(Save+0x24FF)/2 + 7.5) -- Limit Form: DS = 8
 end
