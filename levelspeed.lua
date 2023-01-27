@@ -35,6 +35,11 @@ end
 
 function Cheats()
 SoraCurrentSpeed = 0x00716A60-0x56454E
-WriteFloat(ReadLong(SoraCurrentSpeed)+0x12C, ReadByte(Save+0x24FF)/2 + 7.5, true) -- Base Running Speed
-WriteFloat(ReadLong(SoraCurrentSpeed)+0x128, ReadByte(Save+0x24FF)/2 + 1.5, true) -- Base Walking Speed
+	if ReadByte(Now+0) ~= 0x0A then
+	WriteFloat(ReadLong(SoraCurrentSpeed)+0x12C, ReadByte(Save+0x24FF)/2 + 7.5, true) -- Base Running Speed
+	WriteFloat(ReadLong(SoraCurrentSpeed)+0x128, ReadByte(Save+0x24FF)/2 + 1.5, true) -- Base Walking Speed
+	else 
+	WriteFloat(ReadLong(SoraCurrentSpeed)+0x12C, ReadByte(Save+0x24FF)/2 + 17.5, true) -- Base Running Speed
+	WriteFloat(ReadLong(SoraCurrentSpeed)+0x128, ReadByte(Save+0x24FF)/2 + 1.5, true) -- Base Walking Speed
+	end
 end
