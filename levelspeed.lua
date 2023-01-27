@@ -34,6 +34,7 @@ function Events(M,B,E) --Check for Map, Btl, and Evt
 end
 
 function Cheats()
+SoraCurrentSpeed = 0x00716A60-0x56454E
 WriteFloat(ReadLong(SoraCurrentSpeed)+0x12C, ReadByte(Save+0x24FF)/2 + 7.5, true) -- Base Running Speed
 WriteFloat(ReadLong(SoraCurrentSpeed)+0x128, ReadByte(Save+0x24FF)/2 + 1.5, true) -- Base Walking Speed
 WriteFloat(0x250D6BE, ReadByte(Save+0x24FF)/2 + 17.5) -- Lion Sora Dash Speed
